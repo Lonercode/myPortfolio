@@ -269,6 +269,13 @@
     padding-left: 2vw;
   }
 
+  .container-fluid .navbar-toggler {
+    width: 12vw;
+    top:4vw;
+    right:4vw;
+    position: absolute;
+  }
+
   .greet2 h4{
     width: 95vw;
     animation: typing 2s steps(18), blink .5s step-end infinite alternate;
