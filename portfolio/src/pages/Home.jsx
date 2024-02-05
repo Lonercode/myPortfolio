@@ -53,19 +53,19 @@ function Greet() {
   </div>
 </div></a>
 
-<div class = "container1">
+<a href = "https://11plc.netlify.app"><div class = "container">
 <img src="\images\write.jpg" alt="freelance Site" class="image"/>
   <div class="overlay">
     <div class="text">My Freelance Writer Website</div>
   </div>
-</div>
+</div></a>
 
-<div class = "container2">
+<a href = "https://11plc.netlify.app"><div class = "container">
 <img src="\images\translate.jpg" alt="freelance Site" class="image"/>
   <div class="overlay">
     <div class="text">Translate Ninja Website</div>
   </div>
-</div>
+</div></a>
 
         </div>
         </div>

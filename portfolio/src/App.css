@@ -141,34 +141,21 @@
 
 .proj {
   display:flex;
-  flex-direction: row;
 }
 
 .container {
+  flex: 33.33%;
   position: relative;
-  width: 30%;
   
-  
 }
 
-.container1 {
-  position: relative;
-  width: 33.3%;
-  margin-left: 3vw;
-}
-
-.container2 {
-  position: relative;
-  width: 33.3%;
-  margin-right: 6vw;
-
-}
 
 .image {
   display: block;
   border-radius: 1vw;
   height: 40vh;
   object-fit: cover;
+  margin-right: 3vw;
 }
 
 .overlay {
@@ -178,7 +165,7 @@
   right: 0;
   background-color: coral;
   overflow: hidden;
-  width: 50%;
+  width: 33.3%;
   height:0;
   transition: .5s ease;
   border-radius: 1vw;
@@ -359,39 +346,33 @@
     margin-left: 0vw;
   }
 
-  .proj {
-    display:block;
-    overflow: hidden;
-
+  
+  .projects h3{
+    padding-top: 5vw;
   }
 
   .projects h3, .projects p {
     margin-left: 0vw;
   }
 
-  .proj img {
-    width: 100vw;
-    object-fit: cover;
+  .proj {
+    display:block;
+    margin-top: 5vh;
   }
-
-  .container2 img {
-    width: 98vw;
-    margin-left: 2.5vw;
-  }
-
-  .container{
-    width: 100vw;
-  }
-
   
-  .container1{
-    width: 100vw;
+  .container {
+    flex: 33.33%;
+    position: relative;
     
   }
   
-  .container2{
-    width: 100vw;
   
+  .image {
+    display: block;
+    border-radius: 1vw;
+    height: 40vh;
+    object-fit: cover;
+    margin-right: 3vw;
   }
 
 
@@ -447,6 +428,13 @@
       object-fit: cover;
       border-radius: 1vw;
       padding-left: 2vw;
+    }
+
+    .container-fluid .navbar-toggler {
+      width: 18vw;
+      top:4vw;
+      right:4vw;
+      position: absolute;
     }
   
     .greet2 h4{
@@ -538,10 +526,6 @@
       font-size: 5vw;
     }
   
-    .proj {
-      display:block;
-  
-    }
   
    .projects p {
       margin-left: 0vw;
@@ -552,29 +536,35 @@
       font-size: 5vw;
     }
   
-    .container img{
-      position: relative;
-      width: 70vw;
-      margin-left: -1vw;
-      
-      
-    }
-    
-    .container1{
-      position: relative;
-      width: 100vw;
-      
-      
-    }
-    
-    .container2{
-      position: relative;
-      width: 100vw;
-    
+    .projects h3{
+      padding-top: 5vw;
     }
   
-    .container2 img {
-      margin-left: 2.5vw;
+    .projects h3, .projects p {
+      margin-left: 0vw;
+    }
+  
+    .proj {
+      display:block;
+      margin-top: 5vh;
+    }
+    
+    .container {
+      flex: 33.33%;
+      position: relative;
+      
+    }
+    
+    .image {
+      display: block;
+      border-radius: 1vw;
+      height: 40vh;
+      object-fit: cover;
+      margin-right: 3vw;
+    }
+
+    .text {
+      font-size: 4vw;
     }
   
     .footer {
@@ -598,6 +588,7 @@
    
     .footer h4 {
       padding-bottom: 2vh;
+      font-size: 5vw;
     }
     
     .footer img {
@@ -613,7 +604,8 @@
     .end p {
       position: absolute;
       bottom: 6vh;
-      left: 40%;
+      left: 33%;
+      font-size: 4vw;
     }
   
     .container-fluid .nav-link{
