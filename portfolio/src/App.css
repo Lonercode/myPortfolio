@@ -141,6 +141,7 @@
 
 .proj {
   display:flex;
+  margin-left: 2vw;
 }
 
 .container {
@@ -155,7 +156,7 @@
   border-radius: 1vw;
   height: 40vh;
   object-fit: cover;
-  margin-right: 3vw;
+  margin-right: 6vw;
 }
 
 .overlay {
