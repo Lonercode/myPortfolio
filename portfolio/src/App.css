@@ -338,6 +338,7 @@
 
   .about {
     height: 70vh;
+    width: 100vw;
   }
 
   .text1 {
@@ -353,6 +354,7 @@
 
   .proj {
     display:block;
+    overflow: hidden;
 
   }
 
@@ -360,28 +362,31 @@
     margin-left: 0vw;
   }
 
-  .container img{
-    position: relative;
+  .proj img {
     width: 100vw;
-    
-    
+    object-fit: cover;
   }
+
+  .container2 img {
+    width: 98vw;
+    margin-left: 2.5vw;
+  }
+
+  .container{
+    width: 100vw;
+  }
+
   
   .container1{
-    position: relative;
     width: 100vw;
     
   }
   
   .container2{
-    position: relative;
     width: 100vw;
   
   }
 
-  .container2 img {
-    margin-left: 2.5vw;
-  }
 
   .footer {
     text-align: center;
@@ -448,6 +453,7 @@
       color:coral;
       padding-left: 0vw;
       padding-bottom: 3vw;
+
     }
   
     .greet2 p {
@@ -498,6 +504,7 @@
     .about h3 {
       padding-top: 12vw;
       margin-bottom: 3vw;
+      font-size: 5vw;
     }
     
     .about p {
@@ -505,7 +512,7 @@
     }
   
     .about {
-      height: 70vh;
+      height: 100vh;
     }
   
     .text1 {
@@ -517,6 +524,11 @@
   
     .tools {
       margin-left: 0vw;
+      font-size: 4vw;
+    }
+
+    .tools h3 {
+      font-size: 5vw;
     }
   
     .proj {
@@ -524,13 +536,19 @@
   
     }
   
-    .projects h3, .projects p {
+   .projects p {
       margin-left: 0vw;
+      font-size: 4vw;
+    }
+
+    .projects h3 {
+      font-size: 5vw;
     }
   
     .container img{
       position: relative;
-      width: 100vw;
+      width: 70vw;
+      margin-left: -1vw;
       
       
     }
@@ -538,6 +556,7 @@
     .container1{
       position: relative;
       width: 100vw;
+      
       
     }
     
@@ -587,7 +606,7 @@
     .end p {
       position: absolute;
       bottom: 6vh;
-      left: 36%;
+      left: 40%;
     }
   
     .container-fluid .nav-link{
