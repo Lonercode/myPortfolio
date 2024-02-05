@@ -1,0 +1,423 @@
+#root {
+  max-width: 1280px;
+  margin: 0;  
+
+}
+
+
+.navbar-brand{
+  padding-right: 55vw;
+  height: 6vh;
+  object-fit: cover;
+  border-radius: 1vw;
+  padding-left: 2vw;
+}
+
+.container-fluid .nav-link {
+  margin-right: 3vw;
+}
+
+.nav-link:hover{
+  background-color: coral;
+  border-radius: 1vw;
+}
+
+.greet {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+
+.greet2 h4{
+    width: 52vw;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    color:coral;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.greet p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2vw;
+}
+
+.nav-item a {
+  color: black;
+}
+
+
+.move img{
+  height:30vh;
+  animation-name: moving;
+  animation-duration: 15s;
+  transform:rotate(360deg);
+  padding-left: 60vw;
+  margin-top: -23vh;
+}
+
+@keyframes moving {
+  from { padding-left: 20vw;transform: rotate(0deg);}
+  to { padding-left: 60vw; transform: rotate(360deg);}
+}
+
+
+
+.overall {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.about {
+  background-color: coral;
+  color: black;
+  width: 105vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 70vh;
+  padding-top: 5vw;
+}
+
+.text1 {
+  width: 60vw;
+  text-align: center;
+  margin-left: 20vw;
+  padding-bottom: 3vw;
+}
+
+.about h3 {
+  padding-top: 2vw;
+  margin-bottom: 3vw;
+}
+
+.about p {
+  font-size: 1.4vw;
+}
+
+.stack {
+  background-color: black;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  color: white;
+}
+
+.tools {
+  margin-left: -8vw;
+}
+
+.stack li {
+  list-style: none;
+}
+
+.projects {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+ color: black;
+ text-align: center;
+ margin-bottom: 25vh;
+}
+
+.projects h3 {
+  padding-bottom: 5vw;
+}
+
+.proj {
+  display:flex;
+  flex-direction: row;
+}
+
+.container {
+  position: relative;
+  width: 30%;
+  
+  
+}
+
+.container1 {
+  position: relative;
+  width: 33.3%;
+  margin-left: 3vw;
+}
+
+.container2 {
+  position: relative;
+  width: 33.3%;
+  margin-right: 6vw;
+
+}
+
+.image {
+  display: block;
+  border-radius: 1vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: coral;
+  overflow: hidden;
+  width: 50%;
+  height:0;
+  transition: .5s ease;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+.container:hover .overlay, .container1:hover .overlay, .container2:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: coral;
+  width: 70vw;
+  margin-left: 15vw;
+  border-radius: 1vw;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  position: absolute;
+  z-index: 1;
+  margin-top: -30vh;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+#firstLogo {
+  margin-left: 22vw;
+}
+
+.footer h4 {
+  padding-bottom: 3vh;
+}
+
+.footer img {
+  height: 10vh;
+  object-fit: cover;
+  margin-right: 3vw;
+}
+
+.end {
+  background-color: black;
+  text-align: center;
+  width: 100vw;
+  height:40vh;
+  color: white;
+  z-index: 0;
+  position: absolute;
+}
+
+.end p {
+  position: absolute;
+  bottom: 6vh;
+  left: 43%;
+}
+
+.overallFooter {
+  position: relative;
+}
+
+.logos a:hover {
+  filter:brightness(30%)
+}
+
+/*Mobiles*/
+
+@media (max-width: 480px){
+  .navbar-brand{
+    height: 6vh;
+    object-fit: cover;
+    border-radius: 1vw;
+    padding-left: 2vw;
+  }
+
+  .greet2 h4{
+    width: 89vw;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4.5vw;
+    color:coral;
+    padding-left: 10vw;
+    padding-bottom: 3vw;
+  }
+
+  .greet2 p {
+    padding-right: 30vw;
+    font-size: 3.5vw;
+
+  }
+
+  .greet2 {
+    text-align: center;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .greet {
+    display: grid;
+    place-items:inherit;
+    margin-top: 15vh;
+    margin-bottom: 18vh;
+  }
+
+  .move img{
+    height:30vh;
+    animation-name: moving;
+    animation-duration: 15s;
+    transform:rotate(360deg);
+    padding-left: 60vw;
+    margin-top: -23vh;
+  }
+  
+  @keyframes moving {
+    from { padding-left: 20vw;transform: rotate(0deg);}
+    to { padding-left: 60vw; transform: rotate(360deg);}
+  }
+
+
+
+  .about h3 {
+    padding-top: 2vw;
+    margin-bottom: 3vw;
+  }
+  
+  .about p {
+    font-size: 3vw;
+  }
+
+  .about {
+    height: 50vh;
+  }
+
+  .tools {
+    margin-left: -20vw;
+  }
+
+  .proj {
+    display:block;
+
+  }
+
+  .projects h3, .projects p {
+    margin-left: -25vw;
+  }
+
+  .container img{
+    position: relative;
+    width: 100vw;
+    
+    
+  }
+  
+  .container1{
+    position: relative;
+    width: 100vw;
+    
+  }
+  
+  .container2{
+    position: relative;
+    width: 100vw;
+  
+  }
+
+  .container2 img {
+    margin-left: 2.5vw;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: coral;
+    width: 70vw;
+    margin-left: 15vw;
+    border-radius: 1vw;
+    padding-bottom: 15vh;
+    padding-top: 5vh;
+    position: absolute;
+    z-index: 1;
+    margin-top: -33vh;
+  }
+  
+  .logos {
+    display: block;
+    padding: 2rem;
+  }
+  
+ 
+  .footer h4 {
+    padding-bottom: 2vh;
+  }
+  
+  .footer img {
+    height: 10vh;
+    object-fit: cover;
+  
+  }
+
+  #firstLogo {
+    margin-left: 0vw;
+  }
+  
+  .end p {
+    position: absolute;
+    bottom: 6vh;
+    left: 36%;
+  }
+
+  .container-fluid .nav-link{
+    font-size: 5vw;
+  }
+
+
+}
