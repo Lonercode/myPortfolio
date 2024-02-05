@@ -16,12 +16,12 @@ function Greet() {
         <div className = "about">
             <div className = "text1">
             <h3>My name is Amanda Ene Adoyi...</h3>
-            <p> <b>I am Fullstack Developer with four years of experience building
+            <p> I am Fullstack Developer with four years of experience building
                 web pages. I am an IT Officer in the Council for the Regulation of
                 Engineering in Nigeria (COREN) and have interned with Swizel Technologies
                 Limited, delivering technological solutions to problems. I am passionate
                 about web development. The world easily becomes my canvas when I code.
-           </b> </p>
+           </p>
             </div>
         </div>
 

@@ -270,21 +270,21 @@
   }
 
   .greet2 h4{
-    width: 89vw;
+    width: 98vw;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 4.5vw;
+    font-size: 5vw;
     color:coral;
     padding-left: 10vw;
     padding-bottom: 3vw;
   }
 
   .greet2 p {
-    padding-right: 30vw;
-    font-size: 3.5vw;
+    padding-right: 20vw;
+    font-size: 4.5vw;
 
   }
 
@@ -308,36 +308,43 @@
     display: grid;
     place-items:inherit;
     margin-top: 15vh;
-    margin-bottom: 18vh;
+    margin-bottom: 20vh;
   }
 
   .move img{
-    height:30vh;
+    height:35vh;
     animation-name: moving;
     animation-duration: 15s;
     transform:rotate(360deg);
-    padding-left: 60vw;
-    margin-top: -23vh;
+    padding-left: 50vw;
+    margin-top: -15vh;
   }
   
   @keyframes moving {
     from { padding-left: 20vw;transform: rotate(0deg);}
-    to { padding-left: 60vw; transform: rotate(360deg);}
+    to { padding-left: 50vw; transform: rotate(360deg);}
   }
 
 
 
   .about h3 {
-    padding-top: 2vw;
+    padding-top: 12vw;
     margin-bottom: 3vw;
   }
   
   .about p {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 
   .about {
-    height: 50vh;
+    height: 60vh;
+  }
+
+  .text1 {
+    width: 90vw;
+    text-align: center;
+    margin-left: 5vw;
+    padding-bottom: 2vw;
   }
 
   .tools {
