@@ -53,14 +53,14 @@ function Greet() {
   </div>
 </div></a>
 
-<a href = "https://11plc.netlify.app"><div class = "container">
+<a href = "https://lonercoder.pythonanywhere.com"><div class = "container">
 <img src="\images\write.jpg" alt="freelance Site" class="image"/>
   <div class="overlay">
     <div class="text">My Freelance Writer Website</div>
   </div>
 </div></a>
 
-<a href = "https://11plc.netlify.app"><div class = "container">
+<a href = "https://penpalclassmate.pythonanywhere.com"><div class = "container">
 <img src="\images\translate.jpg" alt="freelance Site" class="image"/>
   <div class="overlay">
     <div class="text">Translate Ninja Website</div>
