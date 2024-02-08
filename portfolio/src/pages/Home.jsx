@@ -61,9 +61,17 @@ function Greet() {
 </div></a>
 
 <a href = "https://penpalclassmate.pythonanywhere.com"><div class = "container">
-<img src="\images\translate.jpg" alt="freelance Site" class="image"/>
+<img src="\images\translate.jpg" alt="Language translation" class="image"/>
   <div class="overlay">
     <div class="text">Translate Ninja Website</div>
+  </div>
+</div></a>
+
+
+<a href = "https://techscape.pythonanywhere.com/"><div class = "container">
+<img src="\images\float.jpg" alt="Personal blog" class="image"/>
+  <div class="overlay">
+    <div class="text">Techscape Blog</div>
   </div>
 </div></a>
 

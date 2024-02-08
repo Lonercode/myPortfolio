@@ -141,7 +141,9 @@
 
 .proj {
   display:flex;
-  margin-left: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .container {
@@ -155,8 +157,10 @@
   display: block;
   border-radius: 1vw;
   height: 40vh;
+  width: 30vw;
   object-fit: cover;
   margin-right: 6vw;
+  margin-top: 4vh;
 }
 
 .overlay {
@@ -386,6 +390,7 @@
     display: block;
     border-radius: 1vw;
     height: 40vh;
+    width: 100vw;
     object-fit: cover;
     margin-right: 3vw;
     margin-bottom: 3vw;
@@ -589,6 +594,7 @@
       display: block;
       border-radius: 1vw;
       height: 40vh;
+      width: 100vw;
       object-fit: cover;
       margin-right: 3vw;
       margin-bottom: 3vw;
