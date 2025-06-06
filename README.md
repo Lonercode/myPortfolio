@@ -1,3 +1,3 @@
 # myPortfolio
 My portfolio site<br/>
-[Link to my portfolio](https://amanda-adoyi.netlify.com)
+[Link to my portfolio](https://amanda-adoyi.netlify.app)
