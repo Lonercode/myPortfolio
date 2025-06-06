@@ -10,27 +10,45 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 function NavOrSth(){
   return (
   <>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <img src = "\images\logo.png" className = "navbar-brand"/>
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+ <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/">
+      <img src="/images/plogo.png" alt="logo" />
+    </a>
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/"><b>Home</b></a>
+
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav ms-auto"> {/* ms-auto pushes ul to right */}
+        <li className="nav-item">
+          <a className="nav-link" aria-current="page" href="/">
+            <b>Home</b>
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects"><b>Projects</b></a>
+        <li className="nav-item">
+          <a className="nav-link" href="#projects">
+            <b>Projects</b>
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mailto:amandaadoyi@gmail.com"><b>Hello</b> &#128075;</a>
+        <li className="nav-item">
+          <a className="nav-link" href="mailto:amandaadoyi@gmail.com">
+            <b>Hello</b> 👋
+          </a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
   </>
   )
 }
@@ -48,7 +66,7 @@ function Footer(){
     </div>
     </div>
     <div className = "end">
-    <p id = "copyright"><b>&#169; 2024 Built by me</b></p>
+    <p id = "copyright"><b>&#169; 2025 Lonercode</b></p>
     </div>
     </div>
 

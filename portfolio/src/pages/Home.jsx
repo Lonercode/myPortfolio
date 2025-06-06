@@ -1,4 +1,6 @@
 import {Outlet, Link} from 'react-router-dom'
+import { FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
+import { SiExpress, SiNestjs, SiMongodb, SiDjango, SiFlask, SiGraphql, SiPostgresql, SiPython, SiJavascript } from 'react-icons/si';
 
 function Greet() {
     return (
@@ -6,8 +8,8 @@ function Greet() {
         <div className = "overall">
         <div className = "greet">
             <div className = "greet2">
-            <h4>Hello, I am a Fullstack Developer.</h4>
-            <p>I love Web Development. I love simplicity.</p>
+            <h4>Hello, I am a Backend Developer.</h4>
+            <p>I love software development and simplicity.</p>
             </div>
         </div>
         <div className = "move">
@@ -16,35 +18,36 @@ function Greet() {
         <div className = "about">
             <div className = "text1">
             <h3>My name is Amanda Ene Adoyi...</h3>
-            <p> I am Fullstack Developer with four years of experience building
-                web pages. I am an IT Officer in the Council for the Regulation of
-                Engineering in Nigeria (COREN) and have interned with Swizel Technologies
-                Limited, delivering technological solutions to problems. I am passionate
-                about web development. The world easily becomes my canvas when I code.
+            <p> I’m a backend developer with a love for solving problems and building tools that make life easier. 
+              I work mostly with Node.js, MongoDB, and relational databases, and I enjoy turning complex challenges into clean, working code. 
+              When I’m coding, it feels like painting with logic - it’s where I'm most at home.
            </p>
             </div>
         </div>
 
-        <div className = "stack">
-            <div className='tools'>
-            <h3>The Tools of my Trade...</h3>
-            <p>I am very familiar with the following technologies: </p>
-            <ul>
-                <li>ReactJS</li>
-                <li>NodeJS</li>
-                <li>Express</li>
-                <li>NestJs</li>
-                <li>Django Rest Framework (DRF)</li>
-                <li>Django and Flask</li>
-                <li>MongoDB</li>
-                <li>API Architectures (REST and GraphQL)</li>
-            </ul>
-        </div>
-        </div>
+  <div className="stack">
+  <div className="tools">
+    <h3>The Tools of my Trade...</h3>
+    <p>I’m very familiar with the following technologies:</p>
 
+    <div className="tech-grid">
+      <div className="tech-item"><FaReact /> ReactJS</div>
+      <div className="tech-item"><FaNodeJs /> NodeJS</div>
+      <div className="tech-item"><SiExpress /> Express</div>
+      <div className="tech-item"><SiNestjs /> NestJS</div>
+      <div className="tech-item"><SiDjango /> Django</div>
+      <div className="tech-item"><SiFlask /> Flask</div>
+      <div className="tech-item"><SiMongodb /> MongoDB</div>
+      <div className="tech-item"><SiPostgresql /> PostgreSQL</div>
+      <div className="tech-item"><FaDatabase /> REST APIs</div>
+      <div className="tech-item"><SiPython /> Python</div>
+      <div className="tech-item"><SiJavascript /> JavaScript</div>
+      <div className="tech-item"><SiGraphql /> GraphQL</div>
+    </div>
+  </div>
+</div>
         <div className = "projects" id = "projects">
-            <h3> My Work </h3>
-            <p><b>Some of my work...</b></p>
+            <h3> Some of my Work </h3>
         <div className='proj'>
     <a href = "https://11plc.netlify.app"><div class="container">
   <img src="\images\mobil.jpg" alt="11plc site" class="image"/>
