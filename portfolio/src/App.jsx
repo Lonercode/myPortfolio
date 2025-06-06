@@ -64,8 +64,6 @@ function Footer(){
       <a href = "https://www.linkedin.com/in/amanda-adoyi-83725a198?trk=contact-info"><img src="\images\linkedin.png"/></a>
       <a href = "https://www.twitter.com/amanda_adoyi"><img src="\images\x.png"/></a>
     </div>
-    </div>
-    <div className = "end">
     <p id = "copyright"><b>&#169; 2025 Lonercode</b></p>
     </div>
     </div>
